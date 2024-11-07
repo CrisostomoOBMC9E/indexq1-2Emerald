@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Me</title>
+	<style>
+		select{
+        	width: 100%;
+        	padding: 8px
+        }
+        label{
+        	display: block;
+        	margin: 10px 0 5px;
+        }
+        input[type="submit"]{
+        	padding: 10px 20px;
+        	margin: 10px 5px;
+        	background-color: green;
+        	color: white;
+        	border: none;
+        	border-radius: 5px;
+        	cursor: pointer;
+        }
+         input[type="reset"]{
+        	padding: 10px 20px;
+        	margin: 10px 5px;
+        	background-color: red;
+        	color: white;
+        	border: none;
+        	border-radius: 5px;
+        	cursor: pointer;
+        }
+        input[type="submit"]:hover,
+        input[type="reset"]:hover{
+        	background-color: lightseagreen;
+        }
+        body{
+			background-color: lightgray;
+			font-family: Arial, sans-serif;
+			text-align: center;
+			margin: 20px;
+		}
+        form{
+        	max-width: 600px;
+            margin: 0 auto;
+        }
+
+	</style>
+</head>
+<body>
+
+<ol>
+	<form>
+		<label>Grade Level?</label>
+		<select id="select" name="select">
+    	<option value="Grade 7">7</option>
+    	<option value="Grade 8">8</option>
+    	<option value="Grade 9">9</option>
+    	<option value="Grade 10">10</option>
+    </select> 
+    <label>Section Name?</label>
+		<select id="select" name="select">
+    	<option value="Emerald">Emerald</option>
+    	<option value="Ruby">Ruby</option>
+    	<option value="Sapphire">Sapphire</option>
+    	<option value="Topaz">Topaz</option>
+    	<option value="Onyx">Onyx</option>
+    </select> 
+    <label>Campus?</label>
+		<select id="select" name="select">
+    	<option value="Angeles">Angeles</option>
+    	<option value="Fairview">Fairview</option>
+    	<option value="Greenhills">Greenhills</option>
+    	<option value="Sta. Ana">Sta. Ana</option>
+    	<option value="Las Pinas">Las Pinas</option>
+    </select> 
+    <input type="SUBMIT" name="SUBMIT">
+    <input type="RESET" name="RESET">
+	</form>
+
+<br>
+<a href="index1.html" target="_Self">GO BACK</a>
+</ol>
+</body>
+</html>
